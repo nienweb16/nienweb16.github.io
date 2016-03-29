@@ -1,12 +1,16 @@
-
-h2{
-	text-align: center;
-}
-div p{
-	margin:0 auto;
+h2 {
+    text-align: center;
 }
 
-#section1{
-	font-size: 14px;
+div p {
+    margin: 0 auto;
+}
 
+#section1 {
+    font-size: 14px;
+    color: ;
+}
+
+#pci2 {
+    float: left;
 }
