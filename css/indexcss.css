@@ -18,6 +18,7 @@
 .nav li a {
     text-decoration: none;
 }
-#header{
-	
+
+.jumbotron .container {
+    background-image: url("../images/leaf.jpg");
 }

@@ -1,14 +1,12 @@
 h2 {
     text-align: center;
+    color: #711B1B;
+    font-family: "Times New Roman", Times, serif;
 }
 
 div p {
     margin: 0 auto;
-}
-
-#section1 {
-    font-size: 14px;
-    color: ;
+    font-size: 18px;
 }
 
 #pci2 {
