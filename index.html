@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="bootstrap-336/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap-336/js/bootstrap.min.js">
     <link rel="stylesheet" href="css/indexcss.css">
-    <title>Tracy Web Site</title>
+    <title>First Web Site</title>
 </head>
 
 <body>
@@ -29,14 +29,14 @@
             </ul>
             <ul class="pull-right">
                 <li><a href="#">Log in</a></li>
-                <li><a href="#">Help</a></li>
+                <li><a href="#message">Help</a></li>
             </ul>
         </div>
     </div>
     <div>
         <div class="jumbotron">
             <div class="container">
-                <h1>Hi, I'm Tracy!! </h1>
+                <h1>Hi, 您好!! </h1>
             </div>
         </div>
         <div>
@@ -57,14 +57,17 @@
     <dir>
         <p>歡迎~留言</p>
         <div>
-            <form method="get" action="#">
-                <p>Your name:
+            <form id="message" method="get" action="#">
+                <p>
+                    <label for="fname">Your Name</label>
                     <input type="text" name="name" />
                 </p>
-                <p>Your email:
+                <p>
+                    <label for="femail">Your Email</label>
                     <input type="text" name="email">
                 </p>
-                <p>Your words:
+                <p>
+                    <label for="fmsg">Your words:</label>
                     <textarea name="message"></textarea>
                 </p>
                 <input type="submit" value="送出">
