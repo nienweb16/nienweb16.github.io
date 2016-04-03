@@ -1,14 +1,25 @@
+.nav {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .nav .container-fluid {
     background-color: #440404;
 }
 
-.nav .container-fluid ul {
-    list-style-type: none;
-}
-
-.nav .container-fluid ul li {
+.container-fluid ul li {
     float: left;
     padding: 10px;
+    color: #fff;
+}
+
+.container-fluid a:hover {
+    color: #fff;
+    text-decoration: none;
 }
 
 h2 {
@@ -18,16 +29,16 @@ h2 {
 }
 
 div p {
-    margin: 0 auto;
-    font-size: 20px;
-}
-
-div ul li {
     font-size: 18px;
 }
 
+#section2 ul li {
+    font-size: 16px;
+    list-style-type: circle;
+}
+
 table,
-th,
+tr,
 td {
     border: 2px solid black;
 }
