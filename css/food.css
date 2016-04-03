@@ -16,3 +16,9 @@ div p {
 div ul li {
     font-size: 18px;
 }
+
+table,
+th,
+td {
+    border: 2px solid black;
+}
