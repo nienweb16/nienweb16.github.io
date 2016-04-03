@@ -1,8 +1,5 @@
-div {
-    width: 80%;
-}
-
 .container {
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -24,4 +21,12 @@ span {
     font-size: 20px;
     font-weight: bold;
     text-decoration: underline;
+}
+
+.contint {
+    text-indent: 20px;
+}
+
+.comp {
+    font-weight: bold;
 }
