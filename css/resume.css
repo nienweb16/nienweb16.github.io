@@ -2,6 +2,10 @@ div {
     width: 80%;
 }
 
+.container {
+    margin: 0 auto;
+}
+
 h1 {
     font-size: 40px;
     font-family: "Arial";
@@ -9,10 +13,6 @@ h1 {
 
 span {
     padding: 10px;
-}
-
-.container {
-    margin: 0 auto;
 }
 
 #cat {
