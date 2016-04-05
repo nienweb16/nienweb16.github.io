@@ -3,6 +3,25 @@
     margin: 0 auto;
 }
 
+.topmenu {
+    width: 400px;
+    position: relative;
+    float: right;
+}
+
+#ulstyle li {
+    float: left;
+    display: inline;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    //border: 1px #ccc solid;
+    padding: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
 h1 {
     font-size: 40px;
     font-family: "Arial";
