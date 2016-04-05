@@ -28,12 +28,29 @@ p>img {
     margin-right: auto;
 }
 
-img {
-    padding: 2px;
+#block3 {
+    width: 860px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-#section1 p:last-child {
-    text-align: center;
+#pic1 {
+    margin: 2px;
+    float: left;
+}
+
+#pic2 {
+    margin: 2px;
+    float: left;
+}
+
+#pi3 {
+    margin: 2px;
+}
+
+.box1 {
+    width: 200px;
+    float: left;
 }
 
 h2 {
@@ -46,13 +63,28 @@ div p {
     font-size: 18px;
 }
 
+.pstyle {
+    margin: 10px;
+    padding: 10px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #a7cece;
+}
+
 #section2 ul li {
     font-size: 16px;
     list-style-type: circle;
 }
 
-table,
+table {
+    float: none;
+    border: 2px solid black;
+    margin-bottom: 100px;
+}
+
 tr,
 td {
+    float: none;
     border: 2px solid black;
 }
