@@ -24,6 +24,7 @@
         <div class="container-fluid" id="header">
             <ul class="pull-left">
                 <li><a href="index.html">Home</a></li>
+                <li><a href="#">架構草圖</a></li>
                 <li><a href="homework1/hw3-foodcss.html">食記</a></li>
                 <li><a href="homework2/resume.html">Resume</a></li>
                 <li><a href="freelancer/freelnacer.html">freelancer</a></li>
@@ -34,50 +35,51 @@
             </ul>
         </div>
     </div>
-    <div>
-        <div class="jumbotron">
-            <div class="container">
-                <h1>Hi, 您好!! </h1>
-            </div>
-        </div>
-        <div>
-            <ul type="circle">
-                <li>作品aaa</li>
-                <li>bbbb</li>
-                <li>cccc</li>
-            </ul>
-            <ul type="square">
-                <li>
-                    <a href="homework1/hw1-food.html">作業一:食記</a>
-                </li>
-                <li><a href="homework2/resume.html">作業二:Resume</a></li>
-                <li><a href="homework1/hw3-foodcss.html">作業三:食記(css)</a></li>
-            </ul>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Hello，你好! </h1>
+            <p>Welcom to my website.</p>
         </div>
     </div>
-    <dir>
-        <p>歡迎~留言</p>
-        <div>
-            <form id="message" method="get" action="#">
-                <p>
-                    <label for="fname">Your Name</label>
-                    <input type="text" name="name" />
-                </p>
-                <p>
-                    <label for="femail">Your Email</label>
-                    <input type="text" name="email">
-                </p>
-                <p>
-                    <label for="fmsg">Your words:</label>
-                    <textarea name="message"></textarea>
-                </p>
-                <input type="submit" value="送出">
-            </form>
+    <div class="homeworks">
+        <div class="container">
+            <h2>作業集</h2>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4" id="hw1">作業一：食記</div>
+                <div class="col-xs-12 col-sm-6 col-md-4" id="hw2">作業二：Resume</div>
+                <div class="col-xs-12 col-sm-6 col-md-4" id="hw3">作業三：食記css</div>
+            </div>
+            <!--
+            <div class="msg">
+                <div class="container">
+                    <p>歡迎~留言</p>
+                    <div class="row">
+                        <form id="message" method="get" action="#">
+                            <p>
+                                <label for="fname">Your Name</label>
+                                <input type="text" name="name" />
+                            </p>
+                            <p>
+                                <label for="femail">Your Email</label>
+                                <input type="text" name="email">
+                            </p>
+                            <p>
+                                <label for="fmsg">Your words:</label>
+                                <textarea name="message"></textarea>
+                            </p>
+                            <input type="submit" value="送出">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            -->
         </div>
-    </dir>
-    <dir id="footer">
-        <p>Tracy's Web &copy;2016</p>
-    </dir>
+    </div>
+    <div class="row">
+        <div class="col-xs-12" id="footer">
+            <p>Tracy's Web &copy;2016</p>
+        </div>
+    </div>
 </body>
 
 </html>
