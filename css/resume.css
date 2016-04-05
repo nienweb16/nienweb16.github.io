@@ -5,7 +5,6 @@
 
 .topmenu {
     width: 400px;
-    position: relative;
     float: right;
 }
 
@@ -14,7 +13,6 @@
     display: inline;
     margin-right: 10px;
     margin-bottom: 2px;
-    //border: 1px #ccc solid;
     padding: 3px;
 }
 
