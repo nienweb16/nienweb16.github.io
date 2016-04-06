@@ -2,6 +2,16 @@ body {
     background-color: #CECECE;
 }
 
-#poem19 {
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.poem19 {
     text-align: center;
+    width: 300px;
+    background: #fff;
+    position: relative;
+    padding: 25px;
+    border: 2px solid black;
 }
