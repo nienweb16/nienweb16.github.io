@@ -17,6 +17,13 @@
     text-decoration: none;
 }
 
+.glyphicon {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-right: 5px;
+    //color: #57049E;
+}
+
 .jumbotron {
     background-image: url(../images/banner3.jpg);
     height: 400px;
