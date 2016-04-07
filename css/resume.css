@@ -1,0 +1,49 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.topmenu {
+    width: 400px;
+    float: right;
+}
+
+#ulstyle li {
+    float: left;
+    display: inline;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    padding: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Arial";
+}
+
+span {
+    padding: 10px;
+}
+
+#cat {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contint {
+    text-indent: 20px;
+}
+
+.comp {
+    font-weight: bold;
+}

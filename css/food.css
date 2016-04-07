@@ -1,16 +1,91 @@
-h2 {
-    text-align: center;
+.nav {
+    width: 100%;
 }
 
-div p {
+.container {
+    width: 80%;
     margin: 0 auto;
 }
 
-#section1 {
-    font-size: 14px;
-    color: ;
+.nav .container-fluid {
+    background-color: #440404;
 }
 
-#pci2 {
+.container-fluid ul li {
     float: left;
+    padding: 10px;
+    color: #fff;
+}
+
+.container-fluid a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+p>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#block3 {
+    width: 860px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#pic1 {
+    margin: 2px;
+    float: left;
+}
+
+#pic2 {
+    margin: 2px;
+    float: left;
+}
+
+#pi3 {
+    margin: 2px;
+}
+
+.box1 {
+    width: 200px;
+    float: left;
+}
+
+h2 {
+    text-align: center;
+    color: #711B1B;
+    font-family: "Times New Roman", "標楷體", Times, serif;
+}
+
+div p {
+    font-size: 18px;
+}
+
+.pstyle {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 25px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #a7cece;
+}
+
+#section2 ul li {
+    font-size: 16px;
+    list-style-type: circle;
+}
+
+table {
+    float: none;
+    border: 2px solid black;
+    margin-bottom: 100px;
+}
+
+tr,
+td {
+    float: none;
+    border: 2px solid black;
 }
