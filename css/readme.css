@@ -11,11 +11,13 @@ body {
 .poem19 {
     text-align: center;
     width: 300px;
-    background: #fff;
+    background: #03B0FB;
     position: relative;
     top: 10px;
-    padding: 25px;
+    padding: 20px;
     border: 2px solid black;
+    background-image: url(../images/star.gif);
+    background-repeat: no-repeat;
 }
 
 .poem19 p {
