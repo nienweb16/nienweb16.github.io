@@ -4,14 +4,22 @@ body {
 
 .container {
     width: 600px;
+    height: 600px;
     margin: 0 auto;
 }
 
 .poem19 {
     text-align: center;
     width: 300px;
-    background: #fff;
+    background: #03B0FB;
     position: relative;
-    padding: 25px;
+    top: 10px;
+    padding: 20px;
     border: 2px solid black;
+    background-image: url(../images/star.gif);
+    background-repeat: no-repeat;
+}
+
+.poem19 p {
+    margin: 10px;
 }
